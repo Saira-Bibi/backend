@@ -11,7 +11,7 @@ app.use(cors({
     'origin': '*',
 }));
 
-app.get('/api', (req, res) => {
+app.get('/', (req, res) => {
     res.json({message : "well come to backend"});
 });
 
