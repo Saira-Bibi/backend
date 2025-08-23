@@ -4,7 +4,7 @@ dotenv.config()
 const app = express();
 const PORT = process.env.PORT;
 
-app.get('/', (req, res) => {
+app.get('api/', (req, res) => {
     res.json({message : "well come to backend"});
 });
 
