@@ -12,7 +12,8 @@ app.use(cors({
 }));
 
 app.get('/', (req, res) => {
-    res.json({message : "well come to backend"});
+   return res.json({message : "well come to backend"});
+    
 });
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
