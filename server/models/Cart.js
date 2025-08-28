@@ -20,10 +20,5 @@ import mongoose from "mongoose";
             type : Boolean,
             default : false,
         }
-        
-
-
-
-
  },{timestamps: true,})
   export const Cart = mongoose.model( "Cart", cartSchema);
